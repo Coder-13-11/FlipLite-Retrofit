@@ -1,39 +1,39 @@
 # FlipLite Retrofit
 
-A small gadget to flip my bathroom fan switch and turn it off on a timer. The tube light will use an Amazon smart plug instead of another motor.
+A small attachment that flips a bathroom fan switch and turns it off on a timer. The plug-in tube light will use an Amazon smart plug through Alexa.
 
-The first build is one fan gadget and one smart plug. The fan should still be usable by hand. Its adjustable timer starts at 12 minutes and runs on the fan unit even if the hub disconnects.
-
-## Current state
-
-This is an early design. CAD, STEP/STL files, a parts list, draft electronics and control tests are here. The PCB is not routed or ready to manufacture. The A1 firmware is unfinished scaffolding, not working device firmware. Nothing has been built or physically tested.
-
-AI assisted with the CAD, electronics drafts, code and documentation. These files need the builder's review, revisions and physical testing. This repository is not a claim of a completed build or funding eligibility.
+Start with one fan attachment and one smart plug. The fan arm should park clear so the switch still works by hand. The adjustable fan timer starts at 12 minutes and runs locally. Check that the tube light comes back on when power returns before relying on its smart plug.
 
 ## Files
 
-- [Current plan](design/design-basis.md)
-- [Implementation tasks](design/implementation-plan.md)
-- [Active parts and prints](design/active-build-list.md)
-- [Parts and sources](design/parts-and-sourcing.md)
-- [Print and test guide](design/assembly-and-test.md)
-- [CAD source and STEP/STL files](design/cad)
-- [Draft schematic and PCB](design/electronics)
-- [Native KiCad import and unfinished firmware](design/A1)
-- [Control reference and tests](design/firmware)
-- [Validation evidence](design/validation/report.md)
+| Folder or file | Contents |
+|---|---|
+| [CAD](design/cad) | Editable Python parameters, STEP solids and STL print candidates |
+| [Electronics](design/electronics) | Editable EAGLE schematic, unrouted board and component list |
+| [KiCad board](design/A1/electronics/node.kicad_pcb) | Imported placement draft |
+| [Control code](design/firmware) | Python behavior reference and tests |
+| [Firmware draft](design/A1/firmware) | Incomplete ESP32 scaffolding |
+| [Current plan](design/design-basis.md) | Fan servo plus tube smart plug |
+| [Build list](design/active-build-list.md) | Current quantities and print scope |
+| [BOM](bom.csv) | Parts categories and links; incomplete pricing |
+| [Build guide](design/assembly-and-test.md) | Fit checks and bench tests still needed |
+| [Status](STATUS.md) | What exists and what is missing |
 
-Older files still include the inline tube-light actuator. That approach is retired. Follow the current plan and active build list, not the old two-actuator renders or quantities. The fan PCB still needs a revision to remove unused tube features.
+## Status
 
-The linked smart plug uses Alexa separately from the custom fan controls. Check that the tube light comes back on after its power is restored before relying on remote ON.
+The design is unfinished. The PCB needs routing, verified footprints and electrical checks. The battery is not selected. Firmware and a complete assembly with electronics still need work. No physical prototype has been built or tested.
+
+Inline cradle/finger/optical files are from an earlier approach and are not part of the current build. See [retired files](design/cad/RETIRED.md). Images are CAD or placement renders, not photographs or screenshots of a finished device.
 
 ## Checks
 
-The A0 control reference and artifact checks previously passed 21 tests. At repository preparation, 20 passed and one geometry check could not run because the local OCP.OCP CAD library was missing. See [current upload check](design/validation/upload-check.txt). Those checks cover digital geometry and selected logic/interfaces; they do not validate electrical safety or a physical device. See the saved reports for their limits.
+Earlier A0 reports recorded 21 passing checks. The upload rerun passed 20; one geometry test could not import OCP.OCP. These tests cover selected geometry/interfaces and control rules, not physical or electrical performance.
 
 ```sh
 python -m pip install cadquery==2.8.0 trimesh matplotlib pytest
 python -m pytest design/validation/test_artifacts.py design/firmware/test_control.py -q
 ```
 
-The tests resolve the design directory relative to their file location. A1 C++ tests refer to an unfinished implementation and are not part of the passing A0 suite.
+## Assistance
+
+AI helped create the CAD, circuit drafts, code and documentation. The files need the builder's own review and revisions. This repository does not establish eligibility for a funding program.

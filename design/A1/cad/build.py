@@ -172,8 +172,6 @@ def render(name,items,title,subtitle):
         patch=depth[y0:y1+1,x0:x1+1];mask=(aa>=-1e-8)&(bb>=-1e-8)&(cc>=-1e-8)&(zz>patch)
         patch[mask]=zz[mask];rgb[y0:y1+1,x0:x1+1][mask]=color
     fig=plt.figure(figsize=(12,9),facecolor='#eef2f1');ax=fig.add_axes([.06,.12,.88,.69]);ax.imshow(rgb);ax.axis('off')
-    fig.text(.065,.94,'FLIPLITE / ENGINEERING PROTOTYPE',fontsize=11,color='#247b77',weight='bold')
-    fig.text(.065,.89,title,fontsize=25,color='#203238',weight='bold')
     fig.text(.065,.055,subtitle,fontsize=10,color='#4e6164')
     fig.savefig(O/'previews'/f'{name}.png',dpi=160);plt.close(fig)
 render('wall-preview',wallitems,'Wall toggle · left-side actuator','60 mm screw centers • arm shown parked • reference geometry; physical fit unverified')
