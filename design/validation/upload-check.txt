@@ -1,0 +1,3 @@
+Repository preparation check: 20 passed, 1 failed.
+Failure: test_inline_joint_has_closed_holes_and_wall_margin cannot import cadquery because OCP.OCP is absent from the current local environment.
+Earlier saved A0 reports record 21 passes. This rerun does not invalidate or re-establish physical fit. No physical tests performed.

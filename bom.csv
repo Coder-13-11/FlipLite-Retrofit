@@ -1,0 +1,8 @@
+Item,Quantity,Link,Status
+Fan node PCBA,1,https://jlcpcb.com/pcb-assembly,Design incomplete; no quote
+Positional servo FS90,1,https://www.pololu.com/product/2818,Fit force and current unverified
+Protected battery with NTC and harness,1,https://www.eemb.com/,No qualified SKU selected
+Wall position sensor assembly,1,https://www.ti.com/product/DRV5032,Custom assembled harness pending
+Fan hub,1,https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/,Candidate only; funding acceptance unconfirmed
+Amazon Smart Plug B089DR29T6,1,https://www.amazon.com/dp/B089DR29T6,Verify outlet load and tube power-return behavior
+Wall prints and fasteners,1 set,,Printer quote and screw measurements needed

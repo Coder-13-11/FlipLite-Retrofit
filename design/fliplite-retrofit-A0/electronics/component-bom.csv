@@ -1,0 +1,46 @@
+Reference,Value_or_candidate,Quantity_per_node,Source,Release_status
+U1,BQ25185DLHR,1,https://www.ti.com/lit/ds/symlink/bq25185.pdf,engineering candidate; footprint/MPN/availability not released
+U2,TPS63031DSKR,1,https://www.ti.com/lit/ds/symlink/tps63031.pdf,engineering candidate; footprint/MPN/availability not released
+U3,TPS61023DRLR,1,https://www.ti.com/lit/ds/symlink/tps61023.pdf,engineering candidate; footprint/MPN/availability not released
+U4,ESP32-C3-WROOM-02-N4,1,https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf,engineering candidate; footprint/MPN/availability not released
+Q1,2N7002,1,https://www.nexperia.com/product/2N7002,engineering candidate; footprint/MPN/availability not released
+J1,B2B-XH-A input,1,https://www.jst-mfg.com/product/index.php?series=277,engineering candidate; footprint/MPN/availability not released
+J2,B4B-XH-A battery+NTC,1,https://www.jst-mfg.com/product/index.php?series=277,engineering candidate; footprint/MPN/availability not released
+J3,B3B-XH-A servo harness,1,https://www.jst-mfg.com/product/index.php?series=277,engineering candidate; footprint/MPN/availability not released
+J4,B4B-PH-K-S dual Hall,1,https://www.jst-mfg.com/product/index.php?series=199,engineering candidate; footprint/MPN/availability not released
+J5,B2B-PH-K-S optical,1,https://www.jst-mfg.com/product/index.php?series=199,engineering candidate; footprint/MPN/availability not released
+J6,Factory pogo fixture,1,https://www.jst-mfg.com/product/index.php?series=199,engineering candidate; footprint/MPN/availability not released
+R1,18k 1%,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+R2,3.00k 1%,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+L1,1.5uH Isat>=1.5A,1,https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xfl/xfl3012/,engineering candidate; footprint/MPN/availability not released
+L2,1uH Isat>=5A,1,https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xfl/xfl4020/,engineering candidate; footprint/MPN/availability not released
+R3,732k 1%,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+R4,100k 1%,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+R5,100k,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+R6,4.7k,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+R7,100k,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+R8,10k,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+R9,10k,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+R10,10k,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+R11,10k,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+R12,10k,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+R13,10k,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+R14,470k 1%,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+R15,470k 1%,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+R16,22k,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+R17,1k,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+C1,1uF 16V,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+C2,10uF 10V,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+C3,1uF 10V,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+C4,10uF 10V,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+C5,100nF,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+C6,10uF 10V,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+C7,10uF 10V,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+C8,10uF 10V,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+C9,22uF 10V,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+C10,22uF 10V,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+C11,100nF,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+C12,10uF 10V,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+C13,1uF,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+C14,100nF,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
+C15,100nF,1,https://www.yageo.com/en/Product,engineering candidate; footprint/MPN/availability not released
